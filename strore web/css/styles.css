@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:linear-gradient(rgb(67, 67, 184), rgb(175, 49, 49))
+}
+/*-----MENU-------*/
+
+.banner{
+    background-color: cadetblue;
+    width: 100%;
+    height: 60px;
+}
+
+
+.menu{
+    background-color: cadetblue;
+    width: 90%;
+    margin-inline: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 10px;
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 25px;
+    
+}
+
+.navegacion{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-decoration: none;
+    
+    
+
+}
+
+.navegacion-list{
+    
+    display: flex;
+    list-style: none;
+    gap: 45px;
+    
+}
+
+.navegacion-list a{
+    font-weight: 400;
+
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+   
+    
+
+}
+
+.navegacion-list li{
+    border-bottom: 2px solid transparent;
+    padding-block: 5px;
+}
+
+.navegacion-list li:first-child{
+    border-bottom-color: rgb(2, 2, 2);
+}
+.navegacion-list li:hover{
+    border-bottom-color: rgb(3, 3, 3);
+}
+
+/*-----BUSCADOR-----*/
+.buscador{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.buscador-input {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    background-color: transparent;
+    color: white;
+}
+
+
+
+   button span:hover {
+    backdrop-filter: blur(0px);
+    color: #ffffff;
+   }
+
+.buscador img{
+    width: 25px;
+    cursor: pointer;
+}
+.buscador img:hover{
+    border:1px solid transparent;
+}
+
+/* ahi que buscar una pagina para colocar las imagene  ( yo estoy haciendo unos botones ) ahi que hacerle unos link para que los lleve alo que dice en el boton */
+/* tipo de letra en css se escribe font-size y como las letras son parrafos la llamamos con p para darle estilos  */ /*dejame terminar de hacer el header y veo si puedo ayuda yo de eso no se mucho */
+
+
+/*acesorios*/
+
+
+.container-accesorio{
+    margin: 5em 2em 0 2em;
+}
+
+.container-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.item{
+    width: 100%;
+    height: 300px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.item:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+
+}
+
+.item img{
+    width: 100%;
+    height: 200px;
+}
+
+/*back*/
+
+.container-accesorio{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.conter-back{
+    display: flex;
+    margin: 25px;
+    padding: 10px;
+}
+.conter-back1{
+    display: flex;
+    margin:  25px;
+    padding: 5px;
+    margin-top: -25px;
+}
+
+.conter-back1{
+
+    
+}
+
+.orden-back{
+    display: flex;
+    
+  
+}
+
+
+.orden-back img{
+    
+    width: 150px;
+    background-color: transparent;
+}
+
+.cont-title h2{
+    padding: 20px;
+}
+.titlelo{
+    border-bottom: 1px solid rgb(59, 58, 58);
+}
+.title-juego {
+    border-bottom: 1px solid rgb(59, 58, 58);
+    
+    text-align: center;
+    font-size: 25px;
+}
+
+.superior-juego{
+    background-color: white;
+    width: 380px;
+    height: 470px;
+    margin: 0px;
+    border-radius: 10px;
+   
+}
+
+.superior-juego:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+}
+
+
+
+.letr-back{
+    padding: 10px;
+    text-align: center;
+}
+.letr-co{
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+
+/*btn-entrar*/
+.btn-entrar{
+    width: 90%;
+    margin: 30px 15px 15px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+.btn-entrar1{
+    width: 90%;
+    margin: 15px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+.btn-entrar:hover{
+    box-shadow: 0 10px 20px rgba(41, 40, 40, 0.2);
+}
+.btn-entrar1:hover{
+    box-shadow: 0 10px 20px rgba(41, 40, 40, 0.2);
+}
+
+.mas-juego{
+    
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 15px 0;
+}
+.mas-juego:hover{
+    color: black;
+}

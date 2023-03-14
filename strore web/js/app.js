@@ -1,0 +1,9 @@
+const card= document.getElementById('cards')
+const itens= document.getElementById('items')
+const  footer= document.getElementById('footer')
+const  cards= document.getElementById('cards')
+const templatecard = document.getElementById('template-card')
+const templatefooter = document.getElementById('template-foote)
+const templatecarrito = document.getElementById('template-carr')
+const fragment = document.createDocumentFragment()
+let carrito = {}

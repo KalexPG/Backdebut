@@ -1,0 +1,38 @@
+[ 
+    {
+    "precio":40.000,
+    "id": 12,
+    "title":"Adidas"
+    },
+    {
+      "precio":30.000,
+      "id":10,
+      "title":"Ropa"
+     
+    },
+
+    {
+        "precio":25.000,
+        "id":10,
+        "title":" Ropa De Niño"
+    },
+
+    {
+        "precio":50.000,
+        "articulo":"Zapatos",
+         "id": 13,
+         "title":"Zapatos"
+
+    },
+
+    {
+        "precio":50.000,
+        "id": 20,
+        "title":"NiKe"
+
+    }
+    
+
+    
+    
+]
